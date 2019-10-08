@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="images/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Our Support Services - Kerry Women's refuge</title>
+    <meta name="description" content="supports for women and children who experience all forms of violence and abuse, including domestic violence, helpline 066 712 9100,email support@kerryrefuge.com">
+    <meta name="keywords" content="Support Service,prevent domestic voilence,help abused women,Kids Support">
+    <script src = "distancecalc.js"></script>
+    <script>
+        function getLocation(){
+      if (navigator.geolocation)
+          {
+              navigator.geolocation.getCurrentPosition(showPosition);
+          }
+        else
+            {
+                document.getElementById("demo").innerHTML="Geolocation is not suppoeted by this browser.";
+            }
+        }
+        function showPosition(position)
+        {
+            document.getElementById("demo").innerHTML="Latitude: " + position.coords.latitude + 
+                "<br>Longitude: " + position.coords.longitude;
+        }
+                    function myFunction() {
+            var x = document.getElementById("map");
+
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+                    }
+                }
+        
+        function readFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+        
+    </script>  
+</head>
+
+<body>
+    <div class="hidepage">Hide Page
+    </div>
+    <main>
+
+        <header>
+            <div id="logo">
+                <a href="index.html">
+                    <img src="images/Logo_kwr.png" alt="logo">
+
+                </a>
+
+            </div>
+
+            <div class="helpline">
+                <h1> <strong><a href="tel:0667129100">066 712 9100</a></strong></h1>
+                <h2><span>Helpline 9am - 12 midnight</span></h2>
+            </div>
+                      <button onclick="getLocation(); myFunction()" class="distance" style="font-size:22px">Location <i class="fa fa-map-marker"></i></button>
+              <button onclick="window.location.href = 'Donate.html';" class="donate">Donate</button>
+
+            <button  onclick="window.location.href = 'Get-help.html';" class="gethelp">Get Help</button>
+
+            <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_searchbar3-->
+            
+
+
+            <nav>
+                <label for="toggle">&#9776; </label>
+                <input type="checkbox" id="toggle">
+                <div class="menu">
+                    <a href="index.html">Home</a>
+                    <a href="RecognisingDomesticViolence.html">Recognising Domestic Violence</a>
+                    <a href="Our-Support-Services.html">Our Support Services</a>
+                    <a href="Links.html">Links</a>
+                    <a href="Shops.html">Shop</a>
+                    <a href="About-Us.html">About </a><div style="font-size:25px"  class="fa fa-caret-down subnav">
+                    <div class="subnav-content">
+                      <a href="Donor_Charter.html">Donor Charter</a>
+                    <a href="Public_Statement_of_Compliance.html">Public Statement of Compliance</a>
+                    <a href="Fundraising_Feedback_and_Complaints.html">Fundraising Feedback and Complaints</a>
+                </div>
+                        </div>
+
+                    
+            <form>
+                    <input type="text" name="search" placeholder="Search..">
+                        </form>
+                </div>
+                    
+
+
+               
+
+
+            </nav>
+
+        </header>
+        
+<div class="content">
+    
+            <div id="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1183.9191129299859!2d-9.698618480236545!3d52.28430765407304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x484535421fa2ac1b%3A0xb9a97a83bc50da78!2sUnnamed+
+              Road%2C+Shanakill%2C+Tralee%2C+Co.+Kerry!5e1!3m2!1sen!2sie!4v1557232203149!5m2!1sen!2sie" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+    
+        <div class="heading"><h1>Our Support Services</h1>
+        </div>
+            <div class="main_content">                        
+
+            <div class="rec_content">
+    <div class="img_box">         
+    <picture >
+        <source media="(max-width: 991px)" srcset="images/happy_slice.jpg">
+  <img src="images/sad_woman_max.jpg" alt="kittycat">
+    
+    </picture>
+        </div>
+    <article>
+
+            <div class="information-head"><h2>Refuge Services</h2></div>
+
+    <p>
+The refuge will provide you with some breathing space, where, with the support of staff and other residents, you can come to some decisions regarding your options at this time in your life. <span id="dots">...</span><span id="more">You may however, understandably have fears or concerns around your stay with us – after all you are leaving your home and all the day-to-day  things that are familiar to you, to come to a strange place with lots of new people to get to know.
+
+But please be assured that the refuge is a comfortable and welcoming place. While you will be sharing the centre facilities with other families, you will also have the privacy of your own completely self contained apartment consisting of kitchen/living room, bedroom and bathroom. This allows you to maintain, as much as possible, your own familiar daily routines.</span></p><button onclick="readFunction()" id="myBtn">Read more</button>
+
+  
+     
+
+       <div class="information-head">
+           <h2>Outreach Support</h2></div>
+<div class="pure-u-2-1">
+<p>Some women may not need or want to come to a refuge but still require information and support. If this is how you feel, you might like to talk to our Outreach Support Workers who are there to help you. An outreach support worker can drive to meet you so that you both can sit down and talk about your situation. You may not feel ready to do anything but it can give you the opportunity to talk and have someone listen to you in a supportive and confidential way. The outreach support worker can work with you if you need information on welfare entitlements, alternative accommodation, legal advice, education and training etc.
+   <br><strong>This service is free of charge</strong> 
+    </p>
+
+
+                
+        </div>
+        <div class="information-head"><h2>Court Accompaniment</h2></div>
+            
+            <p>The Courts can provide protection for victims of Domestic Violence. However, we understand that the Court System can be daunting for anyone, but we can help you through our Court Accompaniment Service.
+
+This service (funded by the Department of Justice through the Commission for the Support of Victims of Crime) is free of charge and available to any woman who is affected by Domestic Violence and attending Family Law Court Hearings in the District, Circuit or High Courts sitting in County Kerry.
+
+                Our Outreach Support Workers are in attendance at the following Court venues in County Kerry:</p>
+
+<ul>
+<li>Tralee</li>
+<li>Listowel</li>
+    <li>Killarney</li>
+        <li>Killorglin</li>
+            <li>Dingle</li>
+<li>Kenmare</li>
+    <li>Cahirciveen</li>
+</ul>
+
+            
+      <p>We can provide you with support through what can be a difficult process through:
+
+Information on the legal options that may be open to you
+A referral to the Legal Aid Board or Family Law Solicitor
+The completion of a Legal Aid Application Form
+Accompaniment to your appointment with your solicitor
+Accompaniment to the Court Clerk’s Office to complete paperwork for your Hearing
+Accompaniment to your Court Hearing(s)
+Follow-up support following your Court Hearing(s)
+Please feel free to contact us for more information on this service.
+
+For information regarding the legal protection available to you along with information on Maintenance, Access & Custody issues you can visit:
+
+www.courts.ie
+
+www.legalaidboard.ie</p>
+            
+<div class="information-head"><h2>Telephone Support:</h2></div>
+            <p style="font-weight:500;">There is always someone here to listen to you if you want to talk. Our lines are open from 9.00am – 12 Midnight</p>
+
+  </article>
+                </div>
+    
+                <aside>
+                            <div class="">
+<h3>ADAPT Women's Refuge</h3>
+                <ul>
+                    
+                    <li><i style="font-size:14px" class="material-icons">&#xe0c8;</i> Killeen Road, <br> Tralee,<br> Co. Kerry</li>
+                    <li><a href="tel:0667129100"><i style="font-size:14px;  margin-right:2px;" class="material-icons">&#xe551;</i> 066 7129100</a></li>
+                    <li><a href="tel:0667127836"><i  style="font-size:14px; margin-right:2px;"  class="fa">&#xf1ac;</i> 066 7127836</a></li>
+                    <li><a href="mailto:kerryrefuge@eircom.net"><i style="font-size:14px; margin-right:2px;" class="material-icons">&#xe0be;</i>  kerryrefuge@eircom.net</a></li>
+                </ul>
+
+            </div>
+                <div class="">
+                    <h4>Women's Aid National Freephone Helpline</h4>
+                    
+                    <Strong>Call: 1800 341 900</Strong>
+                
+                </div>
+            
+            </aside>
+                </div>
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="social">
+            <h3>Get Social</h3>
+            <div class="social_item">
+            <div class="social_icon"><a href="#"><img src="images/FB.png" alt="icon" style="width:100%;"></a></div>
+            <div class="social_icon"><a href="#"><img src="images/Twitter.png" alt="icon" style="width:100%;"></a></div>
+            <div class="social_icon"><a href="#"><img src="images/IG.png" alt="icon" style="width:100%;"></a></div>
+        </div>
+        </div>
+        <div class="footer_links">
+            <div class="userful_link">
+<h3>Useful Links</h3>
+                <ul>
+                    
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="RecognisingDomesticViolence.html">Recognising Domestic Violence</a></li>
+                    <li><a href="OurSupportServices.html">Our Support Services</a></li>
+                    <li><a href="Links.html">Links</a></li>
+                    <li><a href="Shop.html">Shop</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                </ul>
+
+            </div>
+
+            <div class="userful_link">
+      <h3>Get Involved</h3>
+                <ul>
+              
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Vulonteer</a></li>
+                    <li><a href="#">Donate</a></li>
+                    <li><a href="#">Take Action</a></li>
+                    
+                </ul>
+
+            </div>
+
+            <div class="userful_link">
+     <h3>Contact</h3>
+                <ul>
+               
+                    <li><i style="font-size:14px" class="material-icons">&#xe0c8;</i> Killeen Road, <br> Tralee,<br> Co. Kerry</li>
+                    <li><a href="tel:0667129100"><i style="font-size:14px;  margin-right:2px;" class="material-icons">&#xe551;</i> 066 7129100</a></li>
+                    <li><a href="tel:0667127836"><i  style="font-size:14px; margin-right:2px;"  class="fa">&#xf1ac;</i> 066 7127836</a></li>
+                    <li><a href="mailto:kerryrefuge@eircom.net"><i style="font-size:14px; margin-right:2px;" class="material-icons">&#xe0be;</i>  kerryrefuge@eircom.net</a></li>
+                </ul>
+
+            </div>
+
+            
+        </div>
+        <div class="bottom">
+            <p>Copyright © 2019 ADAPT Women's Refuge, Tralee <a href="Sitemap.html">Site Map</a></p>
+        </div>
+    </footer>
+    <a id="back_to_top" title="Back to top" href="#"><i style="font-size:30px" class="fa">&#xf062;</i></a>
+    
+    <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+</body>
+
+
+</html>
